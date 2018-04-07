@@ -1,7 +1,7 @@
 # Natsbeat
 
 Natsbeat is a beat based on <github.com/nats-io/nats-top/util>
-![image](http://github.com/hanjm/natsbeat/raw/master/kibana.png)
+![image](http://github.com/hanjm/natsbeat/raw/master/kibana-visualization.png)
 
 Welcome to Natsbeat.
 Ensure that this folder is at the following location:
