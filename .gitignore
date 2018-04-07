@@ -1,0 +1,10 @@
+/.idea
+/build
+/logs
+/data
+/build.sh
+
+.DS_Store
+/natsbeat
+/natsbeat.test
+*.pyc
