@@ -1,0 +1,69 @@
+- key: natsbeat
+  title: natsbeat
+  description:
+  fields:
+    - name: type
+      type: text
+      required: true
+      description: >
+        beat type
+    - name: hostname
+      type: text
+      required: true
+      description: >
+        the hostname of nats server
+    - name: cpu
+      type: long
+      required: true
+      description: >
+        nats server process cpu usage
+    - name: mem
+      type: long
+      required: true
+      description: >
+        nats server process memory usage
+    - name: up_time
+      type: text
+      required: true
+      description: >
+         nats server process up time
+    - name: num_conns
+      type: long
+      required: true
+      description: >
+        the num of nats server connections
+    - name: in_msgs
+      type: long
+      required: true
+      description: >
+        in msg total count
+    - name: out_msgs
+      type: long
+      required: true
+      description: >
+        out msg total count
+    - name: in_bytes
+      type: long
+      required: true
+      description: >
+        int msg total bytes
+    - name: out_bytes
+      type: long
+      required: true
+      description: >
+        out msg total bytes
+    - name: slow_consumers
+      type: long
+      required: true
+      description: >
+        current slow consumers
+    - name: in_msgs_rate
+      type: long
+      required: true
+      description: >
+        in msg count per second
+    - name: out_msgs_rate
+      type: long
+      required: true
+      description: >
+        out msg count per second

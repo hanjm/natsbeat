@@ -1,0 +1,21 @@
+################### Natsbeat Configuration Example #########################
+
+############################# Natsbeat ######################################
+
+natsbeat:
+  # Defines how often an event is sent to the output
+  period: 5s
+  # The nats server host.
+  nats_host: 127.0.0.1
+  # The NATS server monitoring port.
+  nats_monitor_port: 8200
+output:
+  console:
+    #enabled: true
+    enabled: false
+    pretty: true
+  elasticsearch:
+    enabled: true
+    #enabled: false
+    hosts: ["127.0.0.1:9200"]
+
